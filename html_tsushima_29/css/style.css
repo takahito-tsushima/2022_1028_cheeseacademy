@@ -1,0 +1,635 @@
+@charset "utf-8";
+
+/* ----- サイト全体 ----- */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: #222222;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.6rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ----- セクション共通 ----- */
+.wrapper{
+    width: 1200px;
+    margin: 0 auto 60px;
+}
+
+.text{
+    line-height: 1.8em;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.section_title_e{
+    margin: 0 0 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #ffd61a;
+    text-transform: uppercase;
+}
+
+.section_title_j{
+    margin: 0 0 60px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #222222;
+}
+
+.btn{
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 21px 0;
+    background-color: #ffd61a;
+    color: #fff;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #222222;
+}
+
+.gray{
+    background-color: #fafafa;
+}
+
+
+/* ----- Header -----*/
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-item{
+    margin: 50px 50px 50px 0;
+}
+
+.nav-item>a{
+    font-size: 2.1rem;
+    color: #222222;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* ----- TOP Image -----*/
+.visual{
+    position: relative
+}
+
+.site-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    width: 100%
+}
+
+.visual-text1{
+    margin: 0 0 30px;
+    color: #fff;
+    font-size: 4.0rem;
+    font-size: 3vw /*40px/1200=0.03 → 3vw*/;
+    font-weight: bold;
+}
+
+.visual-text2{
+    color: #fff;
+    font-size: 2.4rem;
+    font-size: 2vw /*24px/1200=0.02 → 2vw*/;
+    font-weight: bold;
+}
+
+
+/* ----- ABOUT -----*/
+.photo-list{
+    display: flex;
+}
+
+.about-text40{
+    margin: 0 0 40px;
+}
+
+.about-text80{
+    margin: 0 0 80px;
+}
+
+
+/* ----- COURSE -----*/
+.course-description{
+    margin: 0 0 60px 0;
+}
+
+.course-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fafafa;
+}
+
+.course-box{
+    width: 50%;
+    margin: auto;
+}
+
+.course-title{
+    font-size: 2.4rem;
+    color: #222222;
+    padding: 0 0 0 50px;
+    margin: 0 0 40px;
+}
+
+.course-text{
+    font-size: 1.6rem;
+    color: #222222;
+    width: 430px;
+    padding: 0 0 0 50px;
+}
+
+.course-title2{
+    font-size: 2.4rem;
+    color: #222222;
+    padding: 0 0 0 120px;
+    margin: 0 0 40px;
+}
+
+.course-text2{
+    font-size: 1.6rem;
+    color: #222222;
+    width: 430px;
+    padding: 0 0 0 120px;
+}
+
+
+/* ----- NEWS -----*/
+.news-wrapper{
+    width: 960px;
+    margin: auto;
+}
+
+.news-list{
+    display: flex;
+    margin: 0 0 60px;
+}
+
+.news-item{
+    width: 300px;
+    margin: 0 15px;
+}
+
+.news-text{
+    color: inherit;
+    text-decoration: none;
+}
+
+.article-wrapper:hover{
+    background-color: #cacaca;
+}
+
+.news-photo{
+    margin: 0 0 30px;
+}
+
+.news-date{
+    margin: 0 0 24px;
+}
+
+
+/* ----- ACCESS -----*/
+.access-background{
+    background-color: #fafafa;
+    padding: 60px 0;
+}
+
+
+.map-size{
+    width: 1200px;
+    height: 300px;
+    margin: 0 0 60px;
+}
+
+.profile-wrapper{
+    width: 500px;
+    margin: auto;
+}
+
+.profile-title{
+    width: 150px;
+    padding: 0 0 30px;
+}
+
+.profile-item{
+    width: 350px;
+    padding: 0 0 30px;
+}
+
+.profile-title2{
+    width: 150px;
+}
+.profile-item2{
+    width: 350px;
+}
+
+
+/* ----- CONTACT -----*/
+.contact-wrapper{
+    padding: 0 0 80px 0;
+}
+
+.contact-text30{
+    margin: 0 0 30px;
+}
+
+.contact-text70{
+    margin: 0 0 70px;
+}
+
+
+.form-wrapper{
+    width: 640px;   
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.form-title{
+    width: 240px;
+    height: 36px;
+    padding: 0 64px 0 16px;
+    font-size: 1.4rem;
+    line-height: 2.0em;
+    text-align: left;
+    vertical-align: middle;
+    border-top:1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.form-item{
+    width: 400px;
+    height: 36px;
+    padding: 8px;
+    vertical-align: middle;
+    border-top:1px solid #bfbfbf;
+    border-left: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.input-parts{
+    appearance: none;
+    box-sizing: border-box;
+    width: 328px;
+    padding: 8px;
+    border:solid 1px #bfbfbf;
+    font-size: 1.6rem;
+}
+
+.check-text{
+    padding: 0 0 0 0;
+    font-size: 1.2rem;
+    vertical-align: top;
+}
+
+.check-height{
+    margin: 0 0 24px;
+}
+
+.style{
+    list-style-type: none;
+}
+
+
+
+/* ----- Footer-----*/
+
+.footer-wrapper{
+    width: 1200px;
+    margin: auto;
+}
+
+.footer{
+    padding: 30px 0;
+    background-color: #707070;
+}
+
+.copyrights{
+    color: #fff;
+}
+
+
+
+
+
+
+/* -----★ レスポンシブ ★-----*/
+@media screen and (max-width:640px){
+    
+ img{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    }
+    
+
+/* ----- 【R】セクション共通 ----- */
+.wrapper{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 10px 0;
+}
+.wrapper:first-of-type{
+    padding: 80px 10px 0;
+}
+
+.text{
+    line-height: 1.8em;
+}
+
+.section_title_e{
+    margin: 0 0 30px;
+}
+
+.section_title_j{
+    margin: 0 0 60px;
+}
+
+.btn{
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 21px 0;
+    font-size: 1.8rem;
+}
+
+
+/* ----- 【R】Header -----*/
+.header-wrapper{
+    display: block;
+    position: fixed;
+    top: 0;
+}
+
+.navigation{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(80, 86, 97, 0.5);
+}
+
+.nav-list{
+    display: block;
+    padding: 60px 0 0;        
+}
+
+.nav-item{
+    margin: 0 0 40px;
+    text-align: center;
+}
+
+.nav-item>a{
+    display: block;
+    font-size: 2.1rem;
+}
+
+
+/* ----- 【R】TOP Image -----*/
+.visual-text1{
+    margin: 0 0 30px;
+    font-size: 2.0rem;
+}
+
+.visual-text2{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+/* ----- 【R】ABOUT -----*/
+.photo-list{
+    display: block;
+}
+
+.about-text40{
+    margin: 0 0 40px;
+}
+
+.about-text80{
+    margin: 0 0 80px;
+}
+
+
+/* ----- 【R】COURSE -----*/
+.course-description{
+    margin: 0 0 60px 0;
+}
+
+.course-wrapper{
+    display: block;
+    width: 100%;
+}
+
+.course-box{
+    width: 100%;
+    margin: auto;
+}
+
+.course-title{
+    font-size: 1.8rem;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+
+.course-text{
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 0 0 50px 0;
+}
+
+.course-title2{
+    font-size: 1.8rem;
+    text-align: center;
+    width: 100%;
+    padding: 0 0 40px 0;
+    margin: 0;
+}
+
+.course-text2{
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 0 0 50px 0;
+}
+
+
+
+
+
+
+
+/* ----- 【R】NEWS -----*/
+.news-wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+.news-list{
+    display: block;
+    width: 100%;
+    margin: 0 auto 60px;
+}
+
+.news-item{
+    width: 100%;
+    margin: 0 auto 15px;
+}
+
+.news-text{
+    color: inherit;
+    text-decoration: none;
+}
+
+.news-photo{
+    width: 100%;
+    margin: 0 auto 30px;
+}
+
+.news-date{
+    margin: 0 auto 24px;
+}
+
+
+/* ----- 【R】ACCESS -----*/
+.map-size{
+    width: 100%;
+    height: auto;
+    margin: 0 0 60px;
+}
+
+.profile-wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+.profile-title{
+    width: 30%;
+    padding: 0 0 30px;
+}
+
+.profile-item{
+    width: 70%;
+    padding: 0 0 30px;
+}
+
+.profile-title2{
+    width: 30%;
+}
+.profile-item2{
+    width: 70%;
+}
+
+
+/* ----- 【R】CONTACT -----*/
+.contact-wrapper{
+    padding: 0 0 80px 0;
+}
+
+.contact-text30{
+    margin: 0 0 30px;
+}
+
+.contact-text70{
+    margin: 0 0 70px;
+}
+
+
+.form-wrapper{
+    width: 640px;   
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.form-title{
+    width: 240px;
+    height: 36px;
+    padding: 0 64px 0 16px;
+    font-size: 1.4rem;
+    line-height: 2.0em;
+    text-align: left;
+    vertical-align: middle;
+    border-top:1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.form-item{
+    width: 400px;
+    height: 36px;
+    padding: 8px;
+    vertical-align: middle;
+    border-top:1px solid #bfbfbf;
+    border-left: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.input-parts{
+    appearance: none;
+    box-sizing: border-box;
+    width: 328px;
+    padding: 8px;
+    border:solid 1px #bfbfbf;
+    font-size: 1.6rem;
+}
+
+.check-text{
+    padding: 0 0 0 0;
+    font-size: 1.2rem;
+    vertical-align: top;
+}
+
+.check-height{
+    margin: 0 0 24px;
+}
+
+.style{
+    list-style-type: none;
+}
+
+
+
+/* ----- 【R】Footer-----*/
+
+.footer-wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+.footer{
+    padding: 30px 0;
+    background-color: #707070;
+}
+
+.copyrights{
+    width: 100%;
+    color: #fff;
+}
+
+}
